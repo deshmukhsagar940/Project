@@ -1,0 +1,88 @@
+"2022-09-23 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2022-09-23 [http-nio-8085-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-ui.html", parameters={}
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/springfox.css?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui.css?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui-bundle.js?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/springfox.js?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/swagger-ui-standalone-preset.js?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/favicon-32x32.png?v=2.9.2", parameters={masked}
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@2e97498d]
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@155a7fb5]
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources", parameters={}
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@1ef77ab]]
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v2/api-docs", parameters={}
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Sep 23 12:33:46 IST 2022, status=404, error=Not Found, message=, path=/}]
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-700.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/csrf", parameters={}
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""2022-09-23 [http-nio-8085-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Sep 23 12:33:46 IST 2022, status=404, error=Not Found, message=, path=/csrf}]
+""2022-09-23 [http-nio-8085-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@15c4559f]
+""2022-09-23 [http-nio-8085-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-700.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-300.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/open-sans-v15-latin-regular.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/source-code-pro-v7-latin-600.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-regular.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/user/getCity/pune", parameters={}
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.mahindra.idbi.banking.controller.UserController#getListByCity(String)
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[User [id=1, firstName=Rahul, lastName=Kajabe, userEmail=rahul@gmail.com, username=rahul123, userAge (truncated)...]
+""2022-09-23 [http-nio-8085-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/fonts/titillium-web-v6-latin-600.woff2", parameters={}
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/webjars/"]
+""2022-09-23 [http-nio-8085-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
